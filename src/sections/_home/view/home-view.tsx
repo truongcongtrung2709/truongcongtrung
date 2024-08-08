@@ -1,12 +1,19 @@
 'use client'
 
 import MainLayout from "@/layouts";
-import { Typography } from "@mui/material";
+import { HEADER } from "@/layouts/config-layout";
+import { Box, Typography } from "@mui/material";
+import HomeHero from "../home-hero";
+import HomeAbout from "../home-about";
+import HomeSkills from "../home-skills";
+import { skills } from "@/_mock/_skills";
 
 export default function HomeView() {
   return (
     <MainLayout>
-      <Typography>Hello World</Typography>
+      <HomeHero />
+      <HomeAbout />
+      <HomeSkills skills={skills} />
     </MainLayout>
 
   )

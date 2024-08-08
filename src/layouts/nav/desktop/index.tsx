@@ -1,24 +1,24 @@
 import { Stack } from "@mui/material";
+import NavList from "./nav-list";
+import { NavProps } from "../type";
 
-type Props = {
-  data: {
-    title: string;
-    path: string
-  }[]
-}
-export default function NavDesktop({ data }: Props) {
+
+export default function NavDesktop({ data, sx, ...other }: NavProps) {
   return (
     <Stack
       component='nav'
       direction='row'
       spacing={5}
+      justifyContent='center'
       sx={{
-        height: 1
+        height: 1,
       }}
+      {...other}
+
     >
-      {data.map(list)=>(
-        
-      )}
+      {data.map((list) => (
+        <NavList key={list.title} data={list} />
+      ))}
     </Stack>
   )
 }

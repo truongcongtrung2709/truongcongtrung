@@ -2,6 +2,10 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import ThemeProvider from "@/theme";
+import { SettingsProvider } from "@/components/settings/context";
+import { MotionLazy } from "@/components/animate/motion-lazy";
+import ProgressBar from "@/components/progress-bar";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,7 +22,21 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        {children}
+        <SettingsProvider
+          defaultSettings={{
+            themeMode: 'light', // 'light' | 'dark'
+            themeDirection: 'ltr', //  'rtl' | 'ltr'
+            themeColorPresets: 'default', // 'default' | 'preset01' | 'preset02' | 'preset03' | 'preset04' | 'preset05'
+          }}
+        >
+          <ThemeProvider>
+            <MotionLazy>
+              <ProgressBar />
+
+              {children}
+            </MotionLazy>
+          </ThemeProvider>
+        </SettingsProvider>
       </body>
     </html>
   );
