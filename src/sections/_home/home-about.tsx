@@ -27,7 +27,7 @@ export default function HomeAbout() {
       }}
     >
       <Typography
-        variant="overline"
+        variant="h2"
         sx={{
           display: 'block',
           color: 'primary.main',

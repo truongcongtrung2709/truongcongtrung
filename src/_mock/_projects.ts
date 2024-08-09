@@ -3,7 +3,7 @@ export const projects = [
     id: 'livestream-soccer',
     title: 'Livestream Soccer',
     linkDemo: 'https://saybong.tv',
-    github: 'N/A',
+    github: '',
     coverUrl: 'assets/projects/livestream-soccer.jpg', // Replace with actual image path
     description: 'Developed a website to livestream soccer matches, display schedules, results, rankings, and highlight videos using Next.js and TypeScript.'
   },
@@ -11,7 +11,7 @@ export const projects = [
     id: 'vdream-entertainment',
     title: 'Vdream Entertainment',
     linkDemo: 'https://www.vdreamentertainment.com/', // Assuming this is the demo link; replace if different
-    github: 'N/A',
+    github: '',
     coverUrl: 'assets/projects/vdream-entertainment.jpg', // Replace with actual image path
     description: 'Developed a website introducing the company, utilizing Next.js on the frontend and Laravel on the backend.'
   },

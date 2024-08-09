@@ -72,7 +72,8 @@ function SkillItem({ skill }: SkillItemProps) {
         bgcolor: 'transparent',
         transition: (theme) => theme.transitions.create('all'),
         '&:hover': {
-          bgcolor: 'background.paper',
+          bgcolor: 'common.white',
+          color: (theme) => theme.palette.grey[800],
           boxShadow: (theme) => theme.customShadows.z24,
           '& .icon': {
             transition: (theme) => theme.transitions.create('all'),
