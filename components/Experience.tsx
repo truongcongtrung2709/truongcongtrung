@@ -6,25 +6,25 @@ import Image from 'next/image';
 const experiences = [
   {
     company: "BIXSO Company: Solutions for Enterprises",
-    time: "8/2023 - 2/2025 (1 year 6 months)",
+    time: "8/2023 - 11/2025 (1 year 3 months)",
     description: `
-      - Built and developed projects using Next.js to create smooth and responsive user experiences.  
-      - Collaborated closely with the backend team to integrate RESTful APIs into the front-end application, ensuring consistency and performance.  
-      - Utilized Redux to manage application state and enhance data management.  
-      - Coordinated with the design team to implement user-friendly and aesthetically pleasing interfaces from Figma designs.  
-      - Participated in testing and optimization to improve performance and user experience.  
-      - Addressed technical issues, ensuring stable and smooth product operations.  
+      - Developed front-end applications with Next.js, delivering seamless and responsive user experiences.  
+      - Integrated RESTful APIs into the front-end, collaborating with backend teams to ensure data consistency and performance.
+      - Implemented Redux for efficient state management and enhanced data handling.
+      - Worked closely with designers to transform Figma mockups into intuitive and visually appealing interfaces.  
+      - Conducted testing and optimization processes to enhance performance and user engagement.
+      - Resolved technical challenges, ensuring smooth functionality and reliable application operations. 
     `,
     image: "/images/bixso.jpg"
   },
   {
     company: "Cyberskill Company: Digital Transformation Solutions",
-    time: "01/2020 - 05/2022 (2 years 5 months)",
+    time: "01/2021 - 03/2022 (1 years 2 months)",
     description: `
-      - Led front-end development for multiple web applications using Next.js, ensuring optimized and responsive UI.  
-      - Worked closely with backend developers to integrate RESTful APIs for seamless data synchronization.  
-      - Applied Redux state management, enhancing data flow and application scalability.  
-      - Translated Figma mockups into pixel-perfect user interfaces while maintaining design consistency.  
+      - Developed front-end for multiple web applications using Next.js, ensuring an optimized and responsive UI. 
+      - Collaborated closely with backend developers to integrate RESTful APIs for seamless data synchronization.
+      - Implemented Redux state management, improving data flow and application scalability.
+      - Translated Figma mockups into pixel-perfect user interfaces while maintaining design consistency. 
       - Conducted performance tuning and testing, resolving bottlenecks for a better user experience.  
       - Proactively handled technical issues, ensuring smooth application operations and timely project delivery.  
     `,
