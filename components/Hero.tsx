@@ -8,7 +8,7 @@ const Hero = () => {
   const { scrollY } = useScroll();
   const y = useTransform(scrollY, [0, 500], [0, 100])
   return (
-    <section className='min-h-[800px] relative overflow-hidden bg-[url(/bg.jpg)] bg-cover bg-center bg-no-repeat
+    <section id='about' className='min-h-[800px] relative overflow-hidden bg-[url(/bg.jpg)] bg-cover bg-center bg-no-repeat
 '>
       <div className="absolute inset-0 bg-black/70"></div>
       <div className="max-w-7xl mx-auto px-6 pt-32 z-10">

@@ -1,5 +1,5 @@
 import Contact from "@/components/contact";
-import Experience from "@/components/Experience";
+import Experience from "@/components/Experiences";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";

@@ -6,6 +6,7 @@ import MenuItem from './MenuItem'
 import { Facebook, Github, Linkedin, Menu, X } from 'lucide-react'
 
 const navItems = [
+  {name:"About", href:'#about'},
   {name:"Projects", href:'#project'},
   {name:"Skills", href:'#skill'},
   {name:"Experience", href:'#experience'},
